@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Kiran - Cloud & AWS Portfolio</title>
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #222;
+    }
+html{
+scroll-behaviour: smooth:
+}
+
+    header {
+      width: 100%;
+      padding: 10px 30px;
+      background: #0d1b2a;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      margin-bottom: 5px;
+    }
+
+    
+
+    nav a {
+      margin-left: 20px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      height: 80vh;
+      display: flex;
+       flex-direction: column;
+      justify-content: centre;
+      background: linear-gradient(135deg, #1b263b, #415a77);
+      color: white;
+      text-align: center;
+     align-items: center;
+      padding: 40px;
+      
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 20px;
+      max-width: 600px;
+     text-align: center;
+    }
+
+    .btn {
+      margin-top: 40px;
+      padding: 10px 20px;
+      background: #e0e1dd;
+      color: #0d1b2a;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+
+    section {
+padding-top : 60px;    }
+
+    h2.section-title {
+      text-align: center;
+      margin-bottom: 40px;
+      margin-top: 190px;
+      font-size: 32px;
+      color: #0d1b2a;
+    }
+
+    .about {
+      max-width: 900px;
+      margin: auto;
+      padding-top: 20px;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .skills-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .skill {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .project-card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+ 
+
+    }
+
+    footer {
+      background: #0d1b2a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+
+.parent-container {
+   text-align: left;
+}
+.hero-left {
+flex : 0 0 200px;
+}
+
+.profile-pic {
+ 
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #e0e1dd;
+  background: #e0e1dd;
+}
+
+ .hero-right {
+   max-width:600px;
+ }
+
+ .hero-right h1 {
+   font-size: 42px;
+   margin-bottom: 10px;
+ }
+
+.hero-right p {
+   font-size: 20px;
+   margin-bottom: 20px;
+ }
+
+.back-home-container{
+display: flex;
+justify-content: center;
+margin:20px 0;
+margin-bottom: 10px;
+}
+
+    .back-home-btn {
+      padding: 10px 20px;
+      background: #e0e1dd;
+      color: #0d1b2a;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+
+
+  </style>
+</head>
+<body>
+
+<header>
+<img src="image/college.jpg" align="left" alt="Left Aligned" width="275" height="80" >
+ 
+   <h2>Kiran - Artificial & Data Science Engineer </h2>
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    	
+  </nav>
+</header>
+
+
+<div class="hero">
+<div class="hero-left">
+ <img src="image/kiran_latest.jpeg"  align="left" alt="Left Aligned" width="150" height="250" class ="profile-pic">
+ </div>
+<div class ="hero-right">
+
+  <h1>AWS CLOUD ENGINEER</h1>
+  <p>Building scalable cloud solutions and deploying modern applications using AWS Services.</p>
+    <a href="#projects" class="btn">View My Projects</a>
+</div>
+</div>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+
+</body>
+</html>
+
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <p class="about">
+  I am a motivated learner with a keen interest in cloud computing and web deployment. This portfolio project, built and hosted on Amazon S3, represents my technical foundation and enthusiasm for cloud-based development.
+  </p>
+</section>
+
+<section id="skills">
+  <h2 class="section-title">Skills</h2>
+  <div class="skills-container">
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">JavaScript</div>
+    <div class="skill">AWS Cloud</div>
+    <div class="skill">S3 Hosting</div>
+    <div class="skill">Lambda Functions</div>
+    <div class="skill">EC2 Basics</div>
+    <div class="skill">CloudFront CDN</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="section-title">Projects</h2>
+
+  <div class="project-card">
+    <h3>AWS S3 Static Website Hosting</h3>
+    <p>Hosted a fully responsive static portfolio website on Amazon S3 and distributed globally via CloudFront CDN.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>Serverless Contact Form</h3>
+    <p>Built a serverless backend with AWS Lambda, API Gateway, and DynamoDB to handle form submissions.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>Cloud Resume Challenge (In Progress)</h3>
+    <p>A fully AWS-powered portfolio including DynamoDB visitor counter, CloudFront distribution, S3 hosting, and Lambda API.</p>
+  </div>
+
+</section>
+
+  
+<section id="contact">
+ <h2 class="section-title">Contact</h2>
+ <div class="project-card">
+  <p style="text-align:center; font-size:18px;">Email: kiranjayaraman2006@gmail.com | LinkedIn: https://www.linkedin.com/in/kiran-j-a4b263393</p>
+   <div class="back-home-container">
+
+<a href="kiran1.html" class="back-home-btn">Home</a>
+</div>
+
+</div>
+</section>
+
+<footer>
+  <p>© 2025 Kiran | Cloud & AWS Portfolio</p>
+</footer>
+
+
+</body>
+</html>
+
+
+
